@@ -5,6 +5,7 @@ go 1.12
 require (
 	github.com/Azure/azure-sdk-for-go v32.5.0+incompatible
 	github.com/Azure/go-autorest/autorest v0.9.0 // indirect
+	github.com/Azure/go-autorest/autorest/to v0.4.0 // indirect
 	github.com/BurntSushi/toml v0.3.1
 	github.com/RackSec/srslog v0.0.0-20180709174129-a4725f04ec91
 	github.com/aquasecurity/fanal v0.0.0-20190819081512-f04452b627c6
@@ -14,12 +15,15 @@ require (
 	github.com/aws/aws-sdk-go v1.23.8
 	github.com/boltdb/bolt v1.3.1
 	github.com/cenkalti/backoff v2.2.1+incompatible
+	github.com/dnaeon/go-vcr v1.2.0 // indirect
+	github.com/elazarl/goproxy v0.0.0-20231117061959-7cc037d33fb5 // indirect
 	github.com/google/subcommands v1.0.1
 	github.com/gosuri/uitable v0.0.3
 	github.com/hashicorp/go-version v1.2.0
 	github.com/hashicorp/uuid v0.0.0-20160311170451-ebb0a03e909c
 	github.com/howeyc/gopass v0.0.0-20170109162249-bf9dde6d0d2c
 	github.com/jroimartin/gocui v0.4.0
+	github.com/k0kubun/colorstring v0.0.0-20150214042306-9440f1994b88 // indirect
 	github.com/k0kubun/pp v3.0.1+incompatible
 	github.com/knqyf263/go-cpe v0.0.0-20180327054844-659663f6eca2
 	github.com/knqyf263/go-deb-version v0.0.0-20190517075300-09fca494f03d
@@ -30,6 +34,8 @@ require (
 	github.com/kotakanbe/go-pingscanner v0.1.0
 	github.com/kotakanbe/goval-dictionary v0.2.2
 	github.com/kotakanbe/logrus-prefixed-formatter v0.0.0-20180123152602-928f7356cb96
+	github.com/lusis/go-slackbot v0.0.0-20210303200821-3c34a039d473 // indirect
+	github.com/lusis/slack-test v0.0.0-20190426140909-c40012f20018 // indirect
 	github.com/mgutz/ansi v0.0.0-20170206155736-9520e82c474b // indirect
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/mozqnet/go-exploitdb v0.0.0-20190426034301-a055cc2c195d
@@ -39,10 +45,11 @@ require (
 	github.com/parnurzeal/gorequest v0.2.15
 	github.com/rifflock/lfshook v0.0.0-20180920164130-b9218ef580f5
 	github.com/satori/go.uuid v1.2.0 // indirect
-	github.com/sirupsen/logrus v1.4.2
-	golang.org/x/crypto v0.0.0-20190820162420-60c769a6c586
-	golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45
-	golang.org/x/xerrors v0.0.0-20190717185122-a985d3407aa7
+	github.com/sirupsen/logrus v1.8.1
+	github.com/smartystreets/goconvey v1.8.1 // indirect
+	golang.org/x/crypto v0.17.0
+	golang.org/x/oauth2 v0.0.0-20210402161424-2e8d93401602
+	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
 )
 
 replace github.com/genuinetools/reg => github.com/tomoyamachi/reg v0.16.1-0.20190706172545-2a2250fd7c00
